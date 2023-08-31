@@ -155,7 +155,7 @@ html {
 .hero__categories__all .adjust i {
   font-size: 1.4rem;
   transform: rotate(0deg);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .hero__categories__all .adjust .rotate {
@@ -167,7 +167,7 @@ html {
   padding-left: 4rem;
   padding-top: 1rem;
   padding-bottom: 1.2rem;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   overflow: hidden;
 }
 

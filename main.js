@@ -30,7 +30,7 @@ const slideProduct = () => {
       let imgItem = document.querySelectorAll(".item");
       clearInterval(interval);
       move === "next"
-        ? (slide.appendChild(imgItem[0]), updateIndicator("next"))
+        ? (slide.appendChild(imgItem[1]), updateIndicator("next"))
         : (slide.prepend(imgItem[imgItem.length - 1]), updateIndicator("pre"));
       startInterval();
     }
